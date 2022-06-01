@@ -1,0 +1,15 @@
+For all of the semantic directions, we have:
+
+pose:		postive for #left#, negtive for #right#
+
+gender:		postive for #male#, negtive for #female# 
+
+age:		postive for #young#, negtive for #old# 
+
+expression:	postive for #smile#, negtive for #calm# 
+
+eyeglasses:	postive for #eyeglass#, negtive for #no-eyeglass# 
+
+
+E.g., suppose that w is a latent code and d is the semantic direction for age. 
+To change w's age attribute towards old, we need to compute the edited latent code as w-kd.
