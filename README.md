@@ -31,7 +31,7 @@ In this module I have tried two approaches to facial emotion modification：
 
 - pix2pixHD：`"pix2pix_approach" folder`
   - Extract video frames and stored in folder corresponding to emotions: `pix2pix_approach/propressed_dataset.py`
-  - Set up five corresponding signs based on the five emotions: ``pix2pix_approach/draw_sign_image.py`
+  - Set up five corresponding signs based on the five emotions: `pix2pix_approach/draw_sign_image.py`
   - Draw emotion signs on corresponding emotion images by CV: `pix2pix_approach/utils.py`,`pix2pix_approach/infer.py`
   - Matched signed images with the original images to form a pix2pix dataset
   - Data augmentation of datasets:`pix2pix_approach/pix2pixhd/draw_sign_image.py`
